@@ -1,3 +1,8 @@
 class Book
-# write your code here
+  attr_accessor :title
+
+  def book(title)
+    @book = book.capitalize!
+  end
+
 end
