@@ -7,9 +7,9 @@ def subtract(a,b)
 end
 
 def sum(a)
-    c = 0
+  c = 0
     a.each do |b|
     c += b
-  end
+    end
   return c
 end
