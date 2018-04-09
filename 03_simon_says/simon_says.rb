@@ -38,5 +38,5 @@ def titleize(a)
     end
   end
     c[0] = a.split(" ")[0].capitalize!
-      return c.join(" ")
+  return c.join(" ")
 end

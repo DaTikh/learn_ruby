@@ -1,4 +1,3 @@
-#write your code here
 def ftoc(a)
   return ((a - 32)/1.8).round(2)
 end
