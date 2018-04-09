@@ -4,17 +4,19 @@ def translate(a)
   phrase = []
 
   a.split(" ").each do |w|
-
+    # print a.split
     if vow.include? w[0]
-      return w + ay
+      word = w + ay
+      # phrase << word
     else
       w = w.split(//)
       w.rotate! until vow.include? w[0]
+      word = w.join("") + ay
     end
-      return w.join("") + ay
+      phrase << word
   end
-
+  return phrase.join(" ")
 end
 
-ah = "testos jrye"
-puts translate(ah)
+# ah = "aghte oputfg"
+# puts translate(ah)
