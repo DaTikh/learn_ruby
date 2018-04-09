@@ -9,11 +9,11 @@ EXERCICES TERMINES
 + 02_calculator
 + 03_simon_says
 + 04_pig_latin
++ 05_book_titles
 
 
 EXERCICES EN COURS
 
-+ 05_book_titles
 + 06_timer
 
 
