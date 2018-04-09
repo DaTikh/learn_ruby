@@ -37,6 +37,6 @@ def titleize(a)
     c << b.capitalize!
     end
   end
-    c << b.capitalize!
+    c[0] = a.split(" ")[0].capitalize!
       return c.join(" ")
 end
